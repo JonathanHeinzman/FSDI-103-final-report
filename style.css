@@ -1,0 +1,92 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f0f4f8;
+    padding: 30px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+button{
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#toF{
+    background-color: lightgray; 
+    color: black;
+    border: 2px solid black; 
+}
+
+#toC{ background-color: lightgray; 
+    color: black;
+    border: 2px solid black;
+}
+
+#generateTable{ 
+    background-color: lightgray; 
+    color: black; 
+    border: 2px solid black;
+}
+
+#result{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#tableContainer{
+    margin-top: 30px;
+}
+
+table{
+    width: 300px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: center;
+}
+
+.thermometer{
+    margin: 30px auto;
+    width: 60px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: white;
+    position: relative;
+}
+
+.mercury{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.temp-boxes{
+    display: flex;
+    flex-direction: column;
+}
+
+.convert-temp{
+    border: 2px;
+    border-radius: 10px;
+    background: white;
+}
+
+.conversion-table{
+    border: 2px;
+    border-radius: 10px;
+    background: white;
+    margin-top: 15px;
+}

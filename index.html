@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Final Report</title>
+</head>
+<body>
+    <h1>Temperature Dashboard</h1>
+    <div class="temp-boxes">
+        <div class="convert-temp">
+            
+            <h2>Convert a Temperature</h2>
+            <button id="toF">Celsius &#8594; Fahrenheit</button>
+            <button id="toC">Fahrenheit &#8594; Celsius</button>
+            
+            <p id="result"></p>
+
+            <div class="thermometer">
+                <div class="mercury" id="mercury" style="height: 0;"></div>
+            </div>
+
+    
+        </div>
+        <div class="conversion-table">
+            <h2>Conversion Table (0 to 100 &deg;C)</h2>
+            <button id="generateTable">Generate Table</button>
+            <div id="tableContainer"></div>    
+        </div>
+
+    </div>
+
+
+
+    <script src="./finalreport.js"></script>
+</body>
+</html>
